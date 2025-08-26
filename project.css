@@ -1,0 +1,19 @@
+.minha-tabela, .minha-tabela th, .minha-tabela td {
+  border-collapse: collapse; /* Remove o espaço entre as bordas */
+  padding: 10px; /* Espaçamento interno das células */
+  text-align: left; /* Alinhamento do texto à esquerda */
+  border: 1px solid #ddd; /* Borda fina e cinza */
+}
+
+.minha-tabela th {
+  background-color: #f2f2f2; /* Cor de fundo do cabeçalho */
+  font-weight: bold; /* Negrito para o texto do cabeçalho */
+}
+
+.minha-tabela tbody tr:nth-child(even) {
+  background-color: #f9f9f9; /* Cor de fundo alternada para linhas pares */
+}
+
+.minha-tabela tbody tr:hover {
+  background-color: #e9e9e9; /* Efeito ao passar o mouse sobre a linha */
+}

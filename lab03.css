@@ -1,0 +1,104 @@
+body{
+    background-color: lightgray;
+}
+#head{
+    color: darkblue;
+    border-style: solid;   
+    padding: 15px;
+    background-color: bisque;
+}
+#javalogo{
+    position: absolute;
+    right: 0%;
+    padding-right: 10px;
+}
+h1{
+    position: absolute;
+    top: 25px;
+    left: 45%;
+    color: darkgreen;
+}
+#headertwo{
+    background-color: lightskyblue;
+}
+#header2{
+    display: flex;
+    word-spacing: 70px;
+    justify-content: center;
+    color: darkred ;
+    font-weight: bold ;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: indigo;
+    font-size: 20pt;
+    font-family: sans-serif;
+}
+.livrosimg1{
+    display: flex;
+    justify-content: center;
+}
+#livro1{
+    position: relative;
+    left: -80px;
+}
+#livro3{
+    position: relative;
+    right: -80px;
+}
+#frames{
+    display: flex;
+    justify-content: center;
+}
+#cap4{
+    position: relative;
+    left: -40px;
+}
+#maps{
+    position: relative;
+    right: -40px;
+}
+.minha-tabela{
+  text-align: left; /* Alinhamento do texto à esquerda */
+  border-style: dashed;
+  border-color: red;
+  position: relative;
+  left: 41%;
+}
+th, td{
+    border: 1px double red;
+}
+th{
+    color: red;
+}
+#links{
+    background-color: yellow;
+    border: none;
+    position: relative;
+    left: 37%;
+    width: 500px;
+}
+h3{
+    font-family: Comic Sans Ms;
+    font-size: 15pt;
+    position: relative;
+    top: 40px;
+    left: 40%;
+}
+#footer1{
+    background-color: bisque;
+    height: 100px;
+}
+#htmlogo{
+    position: absolute;
+    left: 0%;
+    padding-right: 10px;
+}
+#csslogo{
+    position: absolute;
+    right: 0%;
+    padding-right: 10px;
+}

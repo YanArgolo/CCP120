@@ -9,14 +9,15 @@
     border: 3px solid #b300b3;
 }
 .content{
-    height: 520px;
-    width: 935px;
+    height: 400px;
+    width: 705px;
     border-radius: 20px;
     overflow: hidden;
     position: relative;
     top: 60%;
     left: 50%;
-    transform: translate(-50%, 0%);
+    transform: translate(-132%, 0%);
+    margin: 0;
 }
 
 .navigation{
@@ -30,14 +31,14 @@
 .bar{
     width: 70px;
     height: 17px;
-    border: 2px solid white;
+    border: 2px solid gray;
     margin: 6px;
     border-radius: 5px;
     cursor: pointer;
     transition: .4s;
 }
 .bar:hover{
-    background-color: #fff;
+    background-color: #990099ab;
 }
 
 input{
@@ -75,7 +76,7 @@ input{
 body{
     background-color: #181818;
     color: white;
-    margin: 0;
+    /*margin: 0;*/
     padding: 0;
     height: 100vh;
     width: 100vw;

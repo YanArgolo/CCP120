@@ -1,0 +1,98 @@
+button{
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+    width: 60px;
+    height: 40px;
+    border-style: none;
+}
+#navbar{
+    display: flex;
+    color: gray;
+    justify-content: space-around;
+    margin-top: 1%;
+    cursor: pointer;
+}
+.redessociais{
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid gray;
+    color: gray;
+    margin-right: 3%;
+}
+.redessociais2{
+    display: flex;
+    justify-content: flex-end;
+    color: gray;
+    margin-right: 3%;
+}
+h1{
+    color: red;
+    margin-left: 5%;
+}
+
+#carro1{
+    margin-left: 2%;
+}
+#mulherrindo{
+    position: absolute;
+    left: 30%;
+    top: 39%;
+}
+#reporterrecord{
+    position: absolute;
+    left: 47%;
+    top: 39%;
+}
+#carro{
+    position: relative;
+}
+#carrotext{
+    display: flex;
+    position: absolute;
+    border: solid red;
+    width: 495px;
+    background-color: red;
+    color: #fff;
+    left: 37px;
+    bottom: -70px;
+}
+#carrotext2{
+    color: lightgray;
+}
+#mulherrindotxt{
+    position: absolute  ;
+    left: 30%;
+    bottom: 26%;
+    border: none;
+    width: 250px;
+}
+#mulherrindo1{
+    color: red;
+}
+#mulherrindo2{
+    color: rgb(155, 155, 155);
+    font-size: small;
+}
+#mulherrindofim{
+    color: red;
+    cursor: pointer;
+}
+#reportertxt{
+    position: absolute;
+    left: 47%;
+    bottom: 26%;
+}
+#reporter1 , #reporter3{
+    color: red;
+}
+#reporter2{
+    color: gray;
+    font-size: small;
+}
+.correioplay{
+    display: flex;
+    position: absolute;
+    bottom: 2%;
+}
+

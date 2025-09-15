@@ -12,6 +12,31 @@ button{
     justify-content: space-around;
     margin-top: 1%;
     cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: small;
+}
+.social-container{
+    
+}
+.social-containertxt{
+    margin-right: 12%;
+}
+.social-txt p{
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: #555 solid;
+    border-width: 1px;
+    margin-left: 79.5%;
+}
+.social-container2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-left: 79.5%;
+}
+
+.social-txtt{
+    display: flex;
 }
 .redessociais{
     display: flex;
@@ -95,4 +120,84 @@ h1{
     position: absolute;
     bottom: 2%;
 }
+#correiocinza{
+    background-color: rgb(77, 77, 77);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    position: absolute;
+    bottom: -33%;
+    width: 100%;
+}
+h3{
+    position: relative;
+    right: 10%;
+    font-family: Arial, sans-serif;
+}
+iframe{
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+body{
+    margin: 0;
+}
+footer {
+            background-color: #f2f2f2; /* Cor de fundo cinza claro, como na imagem */
+            color: #555;              /* Cor do texto principal */
+            padding: 40px 20px;       /* Espaçamento interno (40px em cima/baixo, 20px nas laterais) */
+            font-size: 14px;          /* Tamanho da fonte base */
+            position: absolute;
+            bottom: -70%;
+            width: 100%;
+            
+        }
 
+        .footer-container {
+            max-width: 1200px;         /* Define uma largura máxima para o conteúdo */
+            margin: 0 auto;            /* Centraliza o container na página */
+            display: flex;             /* ATIVA O FLEXBOX! */
+            justify-content: space-between; /* Distribui as colunas com espaço igual entre elas */
+            align-items: flex-start;   /* Alinha as colunas pelo topo */
+            align-content: flex-end;
+            margin-top: auto;
+            gap: 30px;                 /* Cria um espaço entre as colunas */
+        }
+
+        /* --- Estilos para a Coluna 1 (Logo e Endereço) --- */
+        .coluna-info .logo {
+            max-width: 150px; /* Controla o tamanho do logo */
+            margin-bottom: 20px;
+        }
+
+        .coluna-info p {
+            line-height: 1.6; /* Melhora a legibilidade do endereço */
+            border-bottom: 1px solid #e0e0e0; /* Adiciona a linha divisória */
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+        
+        .coluna-info .contato {
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 15px;
+        }
+
+        /* --- Estilos para as Colunas 2 e 3 (Listas) --- */
+        .coluna-links .item {
+            padding: 10px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        /* --- Estilos para a Coluna 4 (Logos Parceiros) --- */
+        .coluna-logos {
+            display: flex;
+            flex-direction: column; /* Empilha as imagens verticalmente */
+            gap: 20px;              /* Espaço entre as imagens */
+        }
+
+        .coluna-logos img {
+            max-width: 150px; /* Controla o tamanho dos logos */
+        }
+html{
+    height: 100%;
+}

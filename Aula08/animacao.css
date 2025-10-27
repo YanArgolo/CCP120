@@ -1,0 +1,16 @@
+body{
+    background-image: url(pougame.jfif) ;
+    background-size: cover;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quadro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+canvas{
+background-color: transparent;}

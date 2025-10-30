@@ -34,7 +34,12 @@ canvas1.addEventListener('mousemove', function(evento) {
     let x_mouse = evento.clientX - rect.left;
     let y_mouse = evento.clientY - rect.top;
 
+    let novoX = x_mouse - Beemovie.largura / 2;
+    let novoY = y_mouse - Beemovie.altura / 2;
+
+    novoX = Math.max(0, Math.min(novoX, canvas1.width - Beemovie.largura));
+    novoY = Math.max(0, Math.min(novoY, canvas1.height - Beemovie.altura));
     // Centraliza a imagem no cursor (opcional)
-    Beemovie.x = x_mouse - Beemovie.largura / 2;
-    Beemovie.y = y_mouse - Beemovie.altura / 2;
+    Beemovie.x = novoX
+    Beemovie.y = novoY
 });

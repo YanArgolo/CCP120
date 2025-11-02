@@ -1,0 +1,29 @@
+body{
+    background-color: gray;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+form{
+        display: grid;
+        
+        
+    }
+.form_geral{
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    grid-template-columns: auto auto;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+}
+.forms2{
+    text-align: center;
+    padding-left: 35px;
+}
+a:hover{
+    color: white;
+}

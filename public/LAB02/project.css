@@ -1,0 +1,22 @@
+.minha-tabela, .minha-tabela th, .minha-tabela td {
+  border-collapse: collapse; /* Remove o espaço entre as bordas */
+  padding: 10px; /* Espaçamento interno das células */
+  text-align: left; /* Alinhamento do texto à esquerda */
+  border: 1px solid #ffffff67; /* Borda fina e cinza */
+  color: white;
+}
+a:hover{
+color: white;
+}
+body{
+  background-color: gray;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.minha-tabela{
+  margin-left: 45%;
+  margin-right: 50%;
+}

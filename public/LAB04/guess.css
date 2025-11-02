@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    background-color: rgb(78, 78, 78);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
+.advinha{
+    display: flex;
+    flex-direction: column;
+}
+/* .advinhap{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+} */
+#result{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.link-projetos {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #FCE5C5;
+    color: gray;
+    padding: 8px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.link-projetos:hover {
+    background-color: gray;
+    color: white;
+}

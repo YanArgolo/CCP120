@@ -1,5 +1,12 @@
 body{
     background-color: gray;
+    font-family: Arial, sans-serif; /* Fonte mais limpa */
+            background-color: #c2c2c2; /* Fundo cinza claro */
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            flex-direction: column; 
 }
 h1{
     display: flex;
@@ -25,5 +32,5 @@ form{
     padding-left: 35px;
 }
 a:hover{
-    color: white;
+    color: black;
 }

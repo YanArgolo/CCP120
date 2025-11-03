@@ -1,6 +1,0 @@
-.minha-tabela, .minha-tabela th, .minha-tabela td {
-  border-collapse: collapse; /* Remove o espaço entre as bordas */
-  padding: 10px; /* Espaçamento interno das células */
-  text-align: left; /* Alinhamento do texto à esquerda */
-  border: 1px solid #ddd; /* Borda fina e cinza */
-}

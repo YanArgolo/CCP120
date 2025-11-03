@@ -1,0 +1,153 @@
+#ulheader{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;  
+    padding: 16px;
+}
+#elliekidd{
+    border-radius: 50%;
+    border: 3px solid #b300b3;
+}
+.content{
+    height: 400px;
+    width: 705px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    top: 60%;
+    left: 50%;
+    transform: translate(-132%, 0%);
+    margin: 0;
+}
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar{
+    width: 70px;
+    height: 17px;
+    border: 2px solid gray;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+.bar:hover{
+    background-color: #990099ab;
+}
+
+input{
+    display: none;
+}
+
+.slides{
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+.slide{
+    width: 20%;
+    transition: .6s;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+#slide1:checked ~ .s1{
+    margin-left: 0;
+}
+#slide2:checked ~ .s1{
+    margin-left: -20%;
+}
+#slide3:checked ~ .s1{
+    margin-left: -40%;
+}
+#slide4:checked ~ .s1{
+    margin-left: -60%;
+}
+#slide5:checked ~ .s1{
+    margin-left: -80%;
+}
+body{
+    background-color: #181818;
+    color: white;
+    /*margin: 0;*/
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.center{
+    text-align: center;
+}
+h1{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #b300b3;
+}
+
+#logofei{
+    border-radius: 2%;
+}
+p{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ol{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ul{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#programacao{
+    text-align: center;
+    justify-content: left;
+    margin-left: 5px;
+    float: left;
+}
+
+a:hover{
+    color: #b300b3;
+}
+
+.imagens1{
+    text-align: center;
+    border-radius: 10px;
+    border-style: solid;
+    border-image: 2px;
+    background-color: black;
+    margin: 37px;
+    border-color:  #851800;
+    border-width: 3px;
+}
+
+img{
+    
+}
+
+#frame{
+    text-align: center;
+}
+
+iframe{
+    border-radius: 7px;
+}
+
+footer{
+    text-align: center;
+    background-color: #990099;
+    margin-bottom: -10px;
+    margin-left: -8px;
+    margin-right: -8px;
+    color: lightgrey;
+}

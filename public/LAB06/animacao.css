@@ -1,0 +1,36 @@
+body{
+    background-image: url(pougame.jfif) ;
+    background-size: cover;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quadro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+canvas{
+background-color: rgba(146, 146, 146, 0.37);}
+
+.link-projetos {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #00a9d3;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.link-projetos:hover {
+    background-color: rgb(3, 238, 255);
+    color:  #C5995A;
+}

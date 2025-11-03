@@ -1,0 +1,36 @@
+.minha-tabela, .minha-tabela th, .minha-tabela td {
+  border-collapse: collapse; /* Remove o espaço entre as bordas */
+  padding: 20px; /* Espaçamento interno das células */
+  text-align: center; /* Alinhamento do texto à esquerda */
+  border: 1px solid #ffffff67; /* Borda fina e cinza */
+  color: white;
+}
+a{
+  color: white;
+}
+a:hover{
+color: indigo;
+}
+body{
+  background-color: gray;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.minha-tabela{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 1000px;
+}
+th{ 
+
+  font-weight: bold;
+  padding: 10px;
+}
+tr:nth-child(odd){
+  background-color: rgb(105, 105, 105);
+}

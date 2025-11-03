@@ -19,7 +19,7 @@ console.log('Servidor rodando na porta 80...'.rainbow);
 
 //Inicia na página de projects
 app.get('/', function (requisicao, resposta){
-    resposta.redirect('/projects.html');
+    resposta.redirect('../LAB02/project.html');
 });
 
 

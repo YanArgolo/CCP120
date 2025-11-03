@@ -4,7 +4,7 @@
 }
 
 #exercicio01{
-    background-color: rgb(159, 240, 195);
+    background-color: #8FFDD4;
   
 }
 #exercicio02{
@@ -13,12 +13,13 @@
     border: solid 2px black;
 }
 
-.textos{
+.titles{
     display: flex;
     justify-content: space-around;
-    font-family: Tahoma;
-    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18pt;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .txt01{

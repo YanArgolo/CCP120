@@ -5,35 +5,35 @@ let canvas1 = document.getElementById('exercicio01');
                 // Chão
                 ctx.beginPath();
                 ctx.lineWidth = 2;
-                ctx.fillStyle = 'gray';
+                ctx.fillStyle = '#808080';
                 ctx.fillRect(0,370,500,150);
                 ctx.closePath();
 
                 // Casa
                 ctx.beginPath();
                 ctx.lineWidth = 2;
-                ctx.fillStyle = '#591D10';
-                ctx.strokeStyle = '#591D10';
+                ctx.fillStyle = '#86471A';
+                ctx.strokeStyle = '#86471A';
                 ctx.fillRect(195,250,120,120);
                 ctx.closePath();
                 // janela 01
                 ctx.beginPath();
                 ctx.lineWidth = 2;
-                ctx.fillStyle = 'lightskyblue';
-                ctx.strokeStyle = 'lightskyblue';
+                ctx.fillStyle = '#47BDFD';
+                ctx.strokeStyle = '#47BDFD';
                 ctx.fillRect(206,280,35,35);
                 ctx.closePath();
                 //Janela 02
                 ctx.beginPath();
                 ctx.lineWidth = 2;
-                ctx.fillStyle = 'lightskyblue';
-                ctx.strokeStyle = 'lightskyblue';
+                ctx.fillStyle = '#47BDFD';
+                ctx.strokeStyle = '#47BDFD';
                 ctx.fillRect(270,280,35,35);
                 ctx.closePath();
                 // porta
                 ctx.beginPath();
                 ctx.lineWidth = 2;
-                ctx.fillStyle = '#2B0A01';
+                ctx.fillStyle = '#624423';
                 ctx.fillRect(245,320,21,50);
                 ctx.closePath();
 
@@ -54,7 +54,7 @@ let canvas1 = document.getElementById('exercicio01');
 
                 ctx.beginPath();
                 ctx.lineWidth = 2;
-                ctx.fillStyle = 'Green';
+                ctx.fillStyle = '#318A26';
                 ctx.arc(465,355,25,1.5*Math.PI,3.5*Math.PI);
                 ctx.fill();
                 ctx.closePath();
@@ -68,7 +68,7 @@ let canvas1 = document.getElementById('exercicio01');
 
                 ctx.beginPath();
                 ctx.lineWidth = 2;
-                ctx.fillStyle = 'Green';
+                ctx.fillStyle = '#318A26';
                 ctx.arc(70,315,25,1.5*Math.PI,3.5*Math.PI);
                 ctx.fill();
                 ctx.closePath();
@@ -78,7 +78,7 @@ let canvas1 = document.getElementById('exercicio01');
                 ctx.moveTo(195,250);
                 ctx.lineTo(255,200);
                 ctx.lineTo(315,250);
-                ctx.fillStyle = '#CF3117'
+                ctx.fillStyle = '#F5694D'
                 ctx.fill();
                 ctx.closePath();
 
@@ -87,25 +87,25 @@ let canvas1 = document.getElementById('exercicio01');
 
                  ctx.beginPath();
                 ctx.lineWidth = 2;
-                ctx.fillStyle = 'blue';
+                ctx.fillStyle = '#458EFC';
                 ctx.fillRect(0,370,60,130);
                 ctx.closePath();
 
                 ctx.beginPath();
                 ctx.lineWidth = 2;
-                ctx.fillStyle = 'blue';
+                ctx.fillStyle = '#458EFC';
                 ctx.arc(0,370,60,1.0*Math.PI,2.0*Math.PI);
                 ctx.fill();
                 ctx.closePath();
 
                 ctx.beginPath();
                 ctx.lineWidth = 2;
-                ctx.fillStyle = 'blue';
+                ctx.fillStyle = '#458EFC';
                 ctx.fillRect(50,430,120,70);
                 ctx.closePath();
                   ctx.beginPath();
                 ctx.lineWidth = 2;
-                ctx.fillStyle = 'blue';
+                ctx.fillStyle = '#458EFC';
                 ctx.arc(170,500,70,1.0*Math.PI,2.0*Math.PI);
                 ctx.fill();
                 ctx.closePath();
@@ -244,6 +244,7 @@ let canvas1 = document.getElementById('exercicio01');
                 ctx2.stroke();
                 ctx2.closePath();
 
+
                 // Metade arco fim meio
                 ctx2.beginPath();
                 ctx2.lineWidth = 2;
@@ -279,3 +280,26 @@ let canvas1 = document.getElementById('exercicio01');
                 ctx2.fillStyle = 'black';
                 ctx2.fillRect(400,450,50,50);
                 ctx2.closePath();
+
+                ctx2.beginPath();
+                ctx2.fillStyle = 'yellow';
+                ctx2.strokeStyle = 'green';
+                ctx2.lineWidth = 2;
+                ctx2.arc(125, 375, 20, 0, 2 * Math.PI);
+                ctx2.fill();
+                ctx2.stroke();
+                ctx2.closePath();
+
+                ctx2.beginPath();
+                ctx2.fillStyle = 'yellow';
+                ctx2.strokeStyle = 'green';
+                ctx2.lineWidth = 2;
+                ctx2.arc(375, 375, 20, 0, 2 * Math.PI);
+                ctx2.fill();
+                ctx2.stroke();
+                ctx2.closePath();
+
+                ctx2.font = '24px Arial'; // Tamanho ajustado para ser mais visível
+        ctx2.fillStyle = 'black';
+        ctx2.textAlign = 'center';
+        ctx2.fillText('Canvas', 250, 70);

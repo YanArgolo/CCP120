@@ -1,15 +1,19 @@
 .minha-tabela, .minha-tabela th, .minha-tabela td {
   border-collapse: collapse; /* Remove o espaço entre as bordas */
-  padding: 10px; /* Espaçamento interno das células */
-  text-align: left; /* Alinhamento do texto à esquerda */
+  padding: 20px; /* Espaçamento interno das células */
+  text-align: center; /* Alinhamento do texto à esquerda */
   border: 1px solid #ffffff67; /* Borda fina e cinza */
   color: white;
 }
+a{
+  color: white;
+}
 a:hover{
-color: white;
+color: indigo;
 }
 body{
   background-color: gray;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h1{
   display: flex;
@@ -17,6 +21,16 @@ h1{
   color: white;
 }
 .minha-tabela{
-  margin-left: 45%;
-  margin-right: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 1000px;
+}
+th{ 
+
+  font-weight: bold;
+  padding: 10px;
+}
+tr:nth-child(odd){
+  background-color: rgb(105, 105, 105);
 }
